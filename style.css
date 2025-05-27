@@ -1,0 +1,33 @@
+body {
+    font-family: "Microsoft JhengHei", sans-serif;
+    background-color: #f8f9fa;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #007acc;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #333;
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+}
