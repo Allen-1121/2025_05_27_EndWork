@@ -31,3 +31,14 @@ input, textarea {
     margin: 5px;
     width: 200px;
 }
+
+nav a {
+    color: #cdcdcd; /* 預設灰色字 */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a.active {
+    color: white; /* 目前頁面白色字 */
+}
