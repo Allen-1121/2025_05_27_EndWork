@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <title>聯絡我們</title>
@@ -9,17 +9,20 @@
 
 <nav>
     <a href="index.html">首頁</a>
-    <a href="about.html">關於我們</a>
-    <a href="contact.html">聯絡我們</a>
+    <a href="about.html">關於我</a>
+    <a href="contact.html">告訴我</a>
 </nav>
 
-<h1>聯絡我們</h1>
+<h1>告訴我們</h1>
 
 <form onsubmit="handleSubmit(event)">
     <input type="text" id="name" placeholder="你的名字" required><br>
-    <textarea id="message" placeholder="你的訊息" required></textarea><br>
+    <textarea id="message" placeholder="與身份證字號" required></textarea><br>
     <button type="submit">送出</button>
 </form>
+
+<!-- 新增訊息顯示用的空區塊 -->
+<div id="message-box" style="display:none; color: green; margin-top: 20px;"></div>
 
 <script src="script.js"></script>
 </body>
